@@ -1,0 +1,27 @@
+[0.521s] Invoking command in '/workspaces/workshop/build/my_py_pkg': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/workshop/build/my_py_pkg/build --no-deps symlink_data
+[0.715s] running develop
+[0.786s] running egg_info
+[0.786s] creating my_py_pkg.egg-info
+[0.795s] writing my_py_pkg.egg-info/PKG-INFO
+[0.799s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.800s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.800s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.805s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.805s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.820s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.820s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.828s] running build_ext
+[0.829s] Creating /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.829s] Installing listener script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg
+[0.830s] Installing talker script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg
+[0.830s] 
+[0.830s] Installed /workspaces/workshop/build/my_py_pkg
+[0.831s] running symlink_data
+[0.831s] creating /workspaces/workshop/install/my_py_pkg/share/ament_index
+[0.831s] creating /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index
+[0.831s] creating /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.832s] symbolically linking /workspaces/workshop/build/my_py_pkg/resource/my_py_pkg -> /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.832s] symbolically linking /workspaces/workshop/build/my_py_pkg/package.xml -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg
+[0.832s] creating /workspaces/workshop/install/my_py_pkg/share/my_py_pkg/launch
+[0.832s] symbolically linking /workspaces/workshop/build/my_py_pkg/launch/talker_listener.launch.py -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg/launch
+[0.856s] Invoked command in '/workspaces/workshop/build/my_py_pkg' returned '0': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/workshop/build/my_py_pkg/build --no-deps symlink_data

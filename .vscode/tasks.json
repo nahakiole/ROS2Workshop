@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "colcon: build",
+      "type": "shell",
+      "command": "bash -lc 'source /opt/ros/jazzy/setup.bash && colcon build --symlink-install'",
+      "problemMatcher": []
+    },
+    {
+      "label": "ros2: run talker",
+      "type": "shell",
+      "command": "bash -lc 'source /opt/ros/jazzy/setup.bash && source install/setup.bash && ros2 run my_py_pkg talker'"
+    },
+    {
+      "label": "ros2: run listener",
+      "type": "shell",
+      "command": "bash -lc 'source /opt/ros/jazzy/setup.bash && source install/setup.bash && ros2 run my_py_pkg listener'"
+    }
+  ]
+}

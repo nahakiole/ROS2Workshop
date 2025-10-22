@@ -1,0 +1,41 @@
+[0.352s] Invoking command in '/workspaces/workshop/build/my_py_pkg': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/workshop/build/my_py_pkg/build
+[0.480s] running develop
+[0.545s] Removing /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.567s] Invoked command in '/workspaces/workshop/build/my_py_pkg' returned '0': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/workshop/build/my_py_pkg/build
+[0.567s] Invoking command in '/workspaces/workshop/src/my_py_pkg': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspaces/workshop/build/my_py_pkg/build install --record /workspaces/workshop/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[0.678s] running egg_info
+[0.683s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.684s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.696s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.697s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.697s] running build
+[0.697s] running build_py
+[0.697s] creating /workspaces/workshop/build/my_py_pkg/build
+[0.697s] creating /workspaces/workshop/build/my_py_pkg/build/lib
+[0.697s] creating /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg
+[0.698s] copying my_py_pkg/talker.py -> /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg
+[0.698s] copying my_py_pkg/__init__.py -> /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg
+[0.698s] copying my_py_pkg/listener.py -> /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg
+[0.699s] running install
+[0.703s] running install_lib
+[0.709s] creating /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.709s] copying /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg/talker.py -> /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.710s] copying /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.710s] copying /workspaces/workshop/build/my_py_pkg/build/lib/my_py_pkg/listener.py -> /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.710s] byte-compiling /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/talker.py to talker.cpython-312.pyc
+[0.711s] byte-compiling /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[0.711s] byte-compiling /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/listener.py to listener.cpython-312.pyc
+[0.712s] running install_data
+[0.712s] copying resource/my_py_pkg -> /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.712s] copying package.xml -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg
+[0.713s] copying launch/talker_listener.launch.py -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg/launch
+[0.713s] running install_egg_info
+[0.720s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.1-py3.12.egg-info
+[0.722s] running install_scripts
+[0.769s] Installing listener script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg
+[0.770s] Installing talker script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg
+[0.770s] writing list of installed files to '/workspaces/workshop/build/my_py_pkg/install.log'
+[0.788s] Invoked command in '/workspaces/workshop/src/my_py_pkg' returned '0': PYTHONPATH=/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspaces/workshop/build/my_py_pkg/build install --record /workspaces/workshop/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

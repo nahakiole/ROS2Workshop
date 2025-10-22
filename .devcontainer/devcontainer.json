@@ -1,0 +1,13 @@
+{
+  "name": "ros2-workshop",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspaces/ros2_ws,type=bind"
+  ],
+  "remoteUser": "root",
+  "features": {},
+  "postCreateCommand": "bash -lc 'source /opt/ros/jazzy/setup.bash && colcon build --symlink-install || true'"
+}

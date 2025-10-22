@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000310] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100734] (-) TimerEvent: {}
+[0.204249] (-) TimerEvent: {}
+[0.305960] (-) TimerEvent: {}
+[0.408874] (-) TimerEvent: {}
+[0.510200] (-) TimerEvent: {}
+[0.520574] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/workshop/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/workshop/build/my_py_pkg', 'env': {'HOSTNAME': '8085ef787953', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-98e7fff4-7c47-4104-ba0d-71b40a88178a.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-98e7fff4-7c47-4104-ba0d-71b40a88178a.sock"]', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-98e7fff4-7c47-4104-ba0d-71b40a88178a.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/workshop/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/workshop/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.611304] (-) TimerEvent: {}
+[0.711949] (-) TimerEvent: {}
+[0.714523] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[0.783841] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.786404] (my_py_pkg) StdoutLine: {'line': b'creating my_py_pkg.egg-info\n'}
+[0.793641] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[0.799432] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.799810] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[0.799975] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[0.801574] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[0.805516] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.813556] (-) TimerEvent: {}
+[0.817918] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.820350] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.827877] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[0.828766] (my_py_pkg) StdoutLine: {'line': b'Creating /workspaces/workshop/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[0.829662] (my_py_pkg) StdoutLine: {'line': b'Installing listener script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.829980] (my_py_pkg) StdoutLine: {'line': b'Installing talker script to /workspaces/workshop/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.830399] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.830588] (my_py_pkg) StdoutLine: {'line': b'Installed /workspaces/workshop/build/my_py_pkg\n'}
+[0.830792] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[0.830877] (my_py_pkg) StdoutLine: {'line': b'creating /workspaces/workshop/install/my_py_pkg/share/ament_index\n'}
+[0.831115] (my_py_pkg) StdoutLine: {'line': b'creating /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index\n'}
+[0.831207] (my_py_pkg) StdoutLine: {'line': b'creating /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.831769] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /workspaces/workshop/build/my_py_pkg/resource/my_py_pkg -> /workspaces/workshop/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.831871] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /workspaces/workshop/build/my_py_pkg/package.xml -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg\n'}
+[0.831937] (my_py_pkg) StdoutLine: {'line': b'creating /workspaces/workshop/install/my_py_pkg/share/my_py_pkg/launch\n'}
+[0.831998] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /workspaces/workshop/build/my_py_pkg/launch/talker_listener.launch.py -> /workspaces/workshop/install/my_py_pkg/share/my_py_pkg/launch\n'}
+[0.856164] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.864651] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.865989] (-) EventReactorShutdown: {}

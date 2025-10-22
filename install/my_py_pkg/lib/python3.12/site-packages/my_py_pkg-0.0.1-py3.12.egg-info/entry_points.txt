@@ -1,0 +1,3 @@
+[console_scripts]
+listener = my_py_pkg.listener:main
+talker = my_py_pkg.talker:main
