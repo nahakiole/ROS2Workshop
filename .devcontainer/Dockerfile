@@ -5,8 +5,10 @@ SHELL ["/bin/bash","-lc"]
 
 # Basics and colcon tooling
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3-pip python3-colcon-common-extensions ros-dev-tools git nano vim \
-    && rm -rf /var/lib/apt/lists/*
+    python3-colcon-common-extensions \
+    ros-dev-tools \
+    ros-jazzy-turtlesim && \
+    rm -rf /var/lib/apt/lists/*
 
 # Workspace
 RUN mkdir -p /workspaces/ros2_ws/src
