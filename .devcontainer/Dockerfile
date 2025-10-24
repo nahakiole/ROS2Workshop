@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   
 RUN apt-get update && apt-get install  -y --no-install-recommends xvfb fluxbox x11vnc websockify novnc xfce4 dbus-x11 xfce4-terminal ros-jazzy-desktop
 
+RUN apt-get update && apt-get install  -y --no-install-recommends vim
+
 # Workspace
 RUN mkdir -p /workspaces/ros2_ws/src
 WORKDIR /workspaces/ros2_ws
