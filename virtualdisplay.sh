@@ -12,16 +12,19 @@
 
 # stop any old session first
 echo "🧹 Checking for previous virtual display processes..."
-pkill Xvfb x11vnc websockify fluxbox 2>/dev/null || true
+pkill Xvfb     2>/dev/null || true
+pkill x11vnc   2>/dev/null || true
+pkill websockify  2>/dev/null || true
+pkill xfce4-session  2>/dev/null || true
 sleep 1
 
 
 # Create virtual display
 export DISPLAY=:0
-Xvfb :0 -screen 0 1280x800x16 &
+Xvfb :0 -screen 0 1680x1050x16 &> /dev/null &
 
 # Start lightweight window manager
-fluxbox &> /dev/null &
+xfce4-session &> /dev/null &
 
 # Start VNC + WebSocket bridge
 x11vnc -display :0 -forever -nopw -quiet -rfbport 5900 &> /dev/null &
